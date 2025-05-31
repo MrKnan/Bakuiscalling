@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /assets/vendor/
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /*?
+Disallow: /search
+Disallow: /enquire-now
+
+Sitemap: https://bakuiscalling.com/sitemap.xml
