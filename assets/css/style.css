@@ -48,6 +48,31 @@ h1, h2, h3, h4, h5, h6 {
   color: #F0FFF0;
 }
 
+.reviews-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.reviews-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.review {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.review:hover {
+  transform: translateY(-4px);
+}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
